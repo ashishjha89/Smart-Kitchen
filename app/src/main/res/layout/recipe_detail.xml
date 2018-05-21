@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/chicken_biryani" />
+
+    <android.support.v7.widget.AppCompatRatingBar
+        android:id="@+id/sellerProfileRating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:numStars="5"
+        android:progressTint="@android:color/holo_green_dark"
+        android:secondaryProgressTint="@android:color/holo_green_dark"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp" />
+
+</LinearLayout>

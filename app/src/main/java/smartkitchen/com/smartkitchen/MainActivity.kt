@@ -32,6 +32,9 @@ class MainActivity : AppCompatActivity() {
             currentTabValue = savedInstanceState.getInt(currentTab, R.id.navigation_home)
         }
 
+        updateCurrentTab(currentTabValue)
+        showFragment()
+
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
 
@@ -79,5 +82,10 @@ class MainActivity : AppCompatActivity() {
                         .commit()
             }
         }
+    }
+
+    private fun setTab(@IdRes menuItem: Int) {
+        updateCurrentTab(menuItem)
+        showFragment()
     }
 }
