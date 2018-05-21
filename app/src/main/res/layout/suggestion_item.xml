@@ -19,7 +19,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#2C3D4E"
         android:textSize="14sp"
         app:layout_constraintLeft_toLeftOf="@+id/recipe_icon"
         app:layout_constraintRight_toRightOf="@+id/recipe_icon"

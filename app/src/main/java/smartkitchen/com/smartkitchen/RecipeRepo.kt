@@ -24,4 +24,7 @@ class RecipeRepo {
     val favoritesList = arrayListOf(kasenYakiSoba, fiestaChickenRecipe, japaneseFriedRice)
     val familyList = arrayListOf(zucchiniNoodlesAvocadoPeso, butterBeanSpinach, indianCauliflowerRecipe)
     val specialList = arrayListOf(quickMongolianBeef, roastedPumpkinAppleSoup, poachedChickenWithBrothVermicelliNoodles)
+
+    val chefList = arrayListOf(bakedEggModel, sauteedChickenBreastsCreamySauce, sakePoachedChickenWithSobaNoodles, chickenBiryani)
+    val globalList = arrayListOf(kasenYakiSoba, fiestaChickenRecipe, japaneseFriedRice, zucchiniNoodlesAvocadoPeso, quickMongolianBeef)
 }

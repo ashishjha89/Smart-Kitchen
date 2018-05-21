@@ -12,7 +12,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Recommendation" />
+            android:text="Recommendation"
+            android:textColor="#2C3D4E"
+            android:textSize="14sp" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recommendation_list"
@@ -24,7 +26,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Healthy for you" />
+            android:text="Healthy for you"
+            android:textColor="#2C3D4E"
+            android:textSize="14sp" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/healthy_list"
@@ -42,7 +46,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Your Favorites" />
+            android:text="Your Favorites"
+            android:textColor="#2C3D4E"
+            android:textSize="14sp" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/favorites_list"
@@ -54,7 +60,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Try Specials" />
+            android:text="Try Specials"
+            android:textColor="#2C3D4E"
+            android:textSize="14sp" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/specials_list"
@@ -66,7 +74,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="For your family" />
+            android:text="For your family"
+            android:textColor="#2C3D4E"
+            android:textSize="14sp" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/family_list"
