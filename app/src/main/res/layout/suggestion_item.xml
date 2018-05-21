@@ -9,17 +9,17 @@
 
     <ImageView
         android:id="@+id/recipe_icon"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:scaleType="centerCrop"
-        tools:src="@drawable/ic_home_black_24dp" />
+        tools:src="@drawable/home_tab" />
 
     <TextView
         android:id="@+id/recipe_label"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="#2C3D4E"
+        android:textColor="@android:color/white"
         android:textSize="14sp"
         app:layout_constraintLeft_toLeftOf="@+id/recipe_icon"
         app:layout_constraintRight_toRightOf="@+id/recipe_icon"
