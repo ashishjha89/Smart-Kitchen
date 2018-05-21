@@ -6,11 +6,10 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="240dp"
         android:layout_gravity="center_horizontal"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:src="@drawable/chicken_biryani" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/sauteed_chicken_breasts_creamy_sauce" />
 
     <android.support.v7.widget.AppCompatRatingBar
         android:id="@+id/sellerProfileRating"

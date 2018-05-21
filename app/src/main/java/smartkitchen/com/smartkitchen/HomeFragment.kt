@@ -35,11 +35,6 @@ class HomeFragment : Fragment() {
             setHasFixedSize(true)
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         }
-        with(trending_list) {
-            adapter = RecipeAdapter(recipeRepo.trendingList)
-            setHasFixedSize(true)
-            layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
-        }
         with(favorites_list) {
             adapter = RecipeAdapter(recipeRepo.favoritesList)
             setHasFixedSize(true)
