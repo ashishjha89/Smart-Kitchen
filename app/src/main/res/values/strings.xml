@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart Kitchen</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_dish">Dish</string>
+    <string name="title_place">Post Recipe</string>
+</resources>
