@@ -74,6 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
+            android:fontFamily="@font/bree_regular"
             android:text="Body Measurements"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -96,9 +97,19 @@
             android:textColor="@color/warmGrayLight"
             android:textSize="16sp" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bree_regular"
+            android:text="Congrats!"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -137,7 +148,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/bree_regular"
             android:text="Health monitoring apps"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -221,7 +234,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bree_regular"
             android:text="Health Information"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -230,7 +244,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="8dp"
             android:drawablePadding="4dp"
             android:text="- Nutritional Preferences: Low cholesterol, avoid sugar"
             android:textColor="@color/warmGrayLight"
@@ -259,7 +273,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bree_regular"
             android:text="Suggestion"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -274,12 +289,14 @@
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:scaleType="centerCrop"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/tip" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
                 android:text="You need to gain more Calcium this week! Keep following healthy recipes special for you. "
                 android:textColor="@color/warmGrayLight"
                 android:textSize="16sp" />
@@ -289,7 +306,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bree_regular"
             android:text="Recorded Data"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -357,7 +375,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bree_regular"
             android:text="Doctor's Contact"
             android:textColor="@android:color/white"
             android:textSize="18sp" />

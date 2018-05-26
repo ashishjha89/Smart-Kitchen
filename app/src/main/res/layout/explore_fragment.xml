@@ -15,6 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_regular"
             android:text="Captain cooks"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -22,6 +23,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_light"
             android:text="Recipes from top chefs of the world"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -35,6 +37,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_regular"
             android:text="Global Kitchen"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -42,6 +45,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_light"
             android:text="Cook international recipes"
             android:textColor="@android:color/white"
             android:textSize="16sp" />

@@ -14,6 +14,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_regular"
             android:text="Recommendation"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -28,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/bree_regular"
             android:text="Healthy for you"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -42,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/bree_regular"
             android:text="Your Favorites"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -56,6 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/bree_regular"
             android:text="Try Specials"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
@@ -70,6 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/bree_regular"
             android:text="For your family"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
