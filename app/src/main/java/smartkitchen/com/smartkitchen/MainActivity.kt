@@ -84,8 +84,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setTab(@IdRes menuItem: Int) {
-        updateCurrentTab(menuItem)
-        showFragment()
-    }
 }

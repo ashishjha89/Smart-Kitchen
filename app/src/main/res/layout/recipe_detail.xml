@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="16dp"
-                android:background="@android:color/holo_green_dark"
+                android:background="@drawable/primary_button_rounded"
                 android:paddingBottom="16dp"
                 android:paddingLeft="48dp"
                 android:paddingRight="48dp"

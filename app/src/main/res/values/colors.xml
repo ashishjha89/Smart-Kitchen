@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="backgroundDefault">#2C3D4E</color>
     <color name="warmGrayLight">#F7F7F6</color>
+    <color name="action">#116DB4</color> <!-- blue -->
+    <color name="actionActive">#0F61A1</color> <!-- blueDark -->
 </resources>
